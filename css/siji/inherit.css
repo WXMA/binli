@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+span{color:#000000; font-weight:bold;}
+.img{display:block; margin:0px auto; margin-bottom:20px;}
+.img_1{display:block; margin:0px auto; margin-bottom:12px;}
+.nav_1{width:960px; margin:0px auto; font-size:12px; heihjt:22px; line-height:22px; padding-bottom:30px;}
+.nav_1>a{display:inline-block; height:22px; line-height:22px; color: #767676;float:left;}
+.nav_1>span{float:left; color:#000000;}
+.nav_1>ul{float:right;}
+.nav_1>ul li{float:left; padding-right:56px;  height:22px; line-height:22px;}
+.nav_1>ul li a{color:#767676;}
+.box{width:960px; margin:0px auto;}
+.box .right,.left{float:left;}
+.box .left{width:257px;}
+.box .left>h4{font-size:12px; color:#000000; padding-top:4px; }
+.box .left>dl{padding-top:10px; padding-left:13px;}
+.box .left>dl dt a{font-size:12px; color:#666666;}
+.box .left>dl dd{padding-left:12px;}
+.box .left>dl dd a{font-size:10px; color:#666666; line-height:24px;}
+.box .left>ul{padding-left:13px;}
+.box .left>ul li{height:24px; line-height:24px;}
+.box .left>ul li a{font-size:12px; color:#666666;}
+.box .right{width:703px;}
+.box .right>h2{color:#666666; font-size:24px;}
+.box .right>dl dt{font-size:14px; color:#959595; line-height:22px; padding-top:30px; font-weight:bold;}
+.box .right>dl dd{font-size:14px; color:#333; padding-top:22px; line-height:20px;}

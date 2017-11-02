@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+iframe{margin:0 auto; padding:0;}
+.header{width:960px; height:100px; margin:0 auto;}
+.title2{ width:100%; background:#FFF;}
+.title2 .title3{ width:960px; margin:0 auto; height:560px; border-bottom:1px solid #cbcbcb; padding-top:40px;} 
+.title3 ul{width:960px;background:#dfdfdf; position:relative}
+.title3 ul li{float:left;width:132px;text-align:center;font-size:12px;line-height:20px}
+.title3 ul li:hover{background:#7a7a7a}
+
+.youku{display:none; position:absolute;top:-542px}
+.li1:hover div{display:block}
+.title2 .nav2{ width:960px; margin:0 auto;}
+.nav2 p.p1,.nav2 p.p2{ float:left;}
+.nav2 p.p1{ padding-top:14px; color:#00000; font-size:12px; font-family:"微软雅黑"; width:200px;}
+.nav2 p.p1 a{ color:#787576; font-size:12px; font-family:"微软雅黑";}
+.nav2 p.p1 a:hover{color:#000000; text-decoration:underline;}
+.nav2 p.p1 span{ padding-left:3px; padding-right:3px; color:#696e67;}
+.nav2 p.p2{ padding-top:11px; padding-left:448px;}
+.nav2 p.p2 a{ color:#787576; font-size:12px; font-family:"微软雅黑";}
+.nav2 p.p2 a:hover{color:#000000; text-decoration:underline;} 
+.title2 .content{ width:960px; margin:0 auto; margin-top:34px;}
+.content .left{ width:127px; margin-right:127px;}
+.content .right{ width:703px;}
+.content .left,.content .right{ float:left;}
+.content .left h3{ color:#000000; font-size:12px; font-family:"黑体"; padding-top:4px;}
+.content .left ul{ padding-left:12px;}
+.content .left ul li{ line-height:23px;}
+.left li a{ color:#666666; font-size:12px; font-family:"黑体";}
+.left li a:hover{ color:#000;}
+.content .right h2{ color:#666666; font-size:24px;}
+.content .right h3{ color:#666666; font-size:15px; font-family:"微软雅黑"; padding-top:27px; padding-bottom:21px;}
+.content .right p{ padding-bottom:40px; line-height:20px; color:#333333; font-size:14px;}
+.content .right h4{ color:#333333; font-size:14px; font-family:"微软雅黑";}
+.right p a{ color:#787576; text-decoration:underline;}
+.right p a:hover{ color:#000;}
+iframe{margin:0 auto; padding:0;}
+.footer{width:960px; height:100px; margin:0 auto;}

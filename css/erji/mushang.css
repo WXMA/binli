@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.title1{ width:100%; background:#ffffff;}
+.title1 .title2{ width:960px; margin:0 auto;}
+.title2 h2{ height:25px; padding-top:40px; padding-bottom:48px; border-bottom:1px solid #cbcbcb; color:#9b9b9b; font-size:25px; font-family:"黑体";}
+.title1 .nav{ width:960px; margin:0 auto;}
+.nav p.p1,.nav p.p2{ float:left;}
+.nav p.p1{ padding-top:14px; color:#00000; font-size:12px; font-family:"微软雅黑"; width:131px;}
+.nav p.p1 a{ color:#787576; font-size:12px; font-family:"微软雅黑";}
+.nav p.p1 a:hover{color:#000000; text-decoration:underline;}
+.nav p.p1 span{ padding-left:3px; padding-right:3px; color:#696e67;}
+.nav p.p2{ padding-top:11px; padding-left:478px;}
+.nav p.p2 a{ color:#787576; font-size:12px; font-family:"微软雅黑";}
+.nav p.p2 a:hover{color:#000000; text-decoration:underline;}
+.title1 .new{ width:960px; margin:0 auto; margin-top:28px;}
+.new .left,.new .right{ float:left;}
+.new .left{ width:434px; margin-right:28px; margin-left:29px;}
+.new .left p{ padding-top:21px; line-height:24px; color:#000000; font-size:12px; font-family:"黑体";}
+.new .left p a{ color:#787576; font-size:12px; text-decoration:underline;}
+.new .left p a:hover{ color:#000;}
+.new .right{ width:434px;}
+.new .right p{ padding-top:21px; line-height:24px; color:#000000; font-size:12px; font-family:"黑体";}
+.new .right p a{ color:#787576; font-size:12px; text-decoration:underline;}
+.new .right p a:hover{ color:#000;}

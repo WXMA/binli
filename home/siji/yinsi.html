@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Bentley Motors - 隐私政策</title>
+    <meta charset="UTF-8"><script type="text/javascript" src="Bentley%20Motors%20-%20%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96_files/a4f6fd713c"></script><script src="../js/yinsi/nr-998.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"a4f6fd713c","applicationID":"5218430","transactionName":"MQcDYEEHDUAFUBVZDghNNEZaSQFWCkcNVRhJEg5YWgUKVhccG1hOEgcTWUBLAl0AHgJfDwILFV1cCBAdDEcMXA==","queueTime":0,"applicationTime":22,"ttGuid":"D72FAD63590A341E","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta content="cn-CN" http-equiv="Content-Language">
+    <meta content="China" name="country">
+    <meta content="CN" name="geo.country">
+    <link rel="stylesheet" href="../../css/siji/Default.css" type="text/css">
+</head>
+<body>
+    <div id="legal-mother">
+        <div id="div-close">
+            <a href="javascript:self.close();" class="lnk-close" onmouseover="window.status='Close';return true;" onmouseout="window.status='';return true;">关闭</a></div>
+        <div id="div-logo">
+            <img src="../../image/yinsi/bentley_logo.gif" alt="Bentley" width="120" border="0" height="62"></div>
+        <br>
+        <div class="container-heading">隐私权政策</div>
+        <div class="legal-content">
+<article class="privacy">
+<div class="showPrivacy">
+<a id="privacy-policy">
+
+</a>
+<h3>
+1.关于我们
+</h3>
+<p>
+宾利汽车有限公司（下文称“我们”）是一家在英格兰和威尔士注册的公司（公司注册号码：0992897）。本网站的一些板块涉及我们的分销商和经销商，我们对任何以其名义提供的信息内容不承担任何责任。如果您希望与分销商或经销商交涉，请直接与他们联系。
+</p>
+<p>
+我们会尽力保护所有客户和网站用户的隐私。本《隐私权政策》概述了个人信息的处理方法。
+</p>
+<p>
+本“政策”、我们的网站条款和条件以及 <a href="#" target="_blank">cookie 政策</a>共
+同设立数据处理规范，我们将依据此规范来处理我们向您收集的或您向我们提供的所有个人数据。请仔细阅读以下内容以了解我们如何看待和对待您的个人数据以及
+我们处理此类资料的具体办法。一旦您访问 bentleymotors.com 
+或我们的任何一个相关网站，即表示您接受和认同本“政策”中所述的处理规范。 
+</p>
+<p>
+为遵守《1998 数据保护法案》（以下简称“法案”）的规定，数据控制方为位于下列地址的宾利汽车有限公司：Pyms Lane, Crewe, Cheshire, CW1 3PL。 
+</p>
+<h3>
+2.所收集数据的类型
+</h3>
+<h4>
+您向我们提供的信息。 
+</h4>
+<p>
+在填写我们网站上的表格或通过电话、电子邮件或其他方式与我们联系时，您会向我们提供您的个人信息。此类信息包括您从事下列活动时提供的信息：注册使用我
+们的网站；订阅我们的服务；搜索产品；在网站下订单；使用我们网站上的讨论板或其他社交媒体功能；参与竞赛、促销或调查；通过我们网站上报问题。您向我们
+提供的信息可能包括您的姓名、地址、电子邮件地址和电话号码、金融和信用卡信息、个人说明和照片、兴趣和其他个人信息。 
+</p>
+<h4>
+我们所收集的与您有关的信息。 
+</h4>
+<p>
+您每次访问我们的网站时，我们会自动收集以下信息：
+</p>
+<ul>
+<li>
+技术信息：包括用于将您的计算机连接到 Internet 的 IP（Internet 协议）地址、您的登录信息、浏览器类型和版本、时区设置、浏览器插件类型和版本、操作系统和平台； 
+</li>
+<li>
+与您的访问有关的信息：包括前往、经由和离开我们网站的完整 
+URL（统一资源定位器）点击流（包括日期和时间）；查看过或搜索过的产品；页面响应时间、下载错误、页面停留时间、页面交互信息（例如滚动、单击、鼠标
+悬停）、以及离开页面时使用的方法和拨打我们的客户服务号码时使用的所有电话号码。 
+</li>
+<li>
+从其他来源收集的信息。如果您使用我们运营的其他网站或我们提供的其他服务，我们也会收集您的信息。我们也与第三方（包括诸如业务合作伙伴、技术分包商、付款和交付服务、广告网络、分析服务供应商、搜索信息供应商等）密切合作，并会向他们收集有关您的信息。
+</li>
+</ul>
+<h3>
+3.垃圾邮件警告
+</h3>
+<p>
+我们绝不会在电子邮件中要求您确认任何个人信息。虽然我们确实会开展有针对性的电子邮件推广计划，但绝不会要求您确认任何个人信息，如：姓名、地址、出生
+日期等。如果您收到任何此类邮件，都有可能是欺诈邮件，我们建议您不做回应。我们建议您对收到的任何此类邮件进行标记，并将其添加到电子邮件拦截地址列
+表。
+</p>
+<h3>
+4.信息的使用
+</h3>
+<p>
+我们可能会将从您那里收集到的信息用于多种用途，包括：
+</p>
+<ul>
+<li>
+保护我们的网站和系统免受未经授权的访问，管理我们的网站并支持内部操作，包括故障排除、数据分析、测试、研究、统计和调查；
+</li>
+<li>
+处理您签订的所有订单或履行您与我们达成的任何合同中所规定的我们的义务，并向您提供您所要求的信息、产品和服务；
+</li>
+<li>
+与您联络，例如在进行紧急产品召回时；
+</li>
+<li>
+对我们的信息记录进行维护；
+</li>
+<li>
+允许您参与我们的服务的互动功能（在您做出这样的选择后）；
+</li>
+<li>
+追踪您在我们网站上的活动；
+</li>
+<li>
+提升我们的服务质量；
+</li>
+<li>
+为您创建个人档案资料，以便我们能够向您告知具体的产品、服务或您可能感兴趣的活动，并允许您访问您有权使用的任何宾利社交媒体或社交网站。
+</li>
+</ul>
+<h3>
+5.信息的披露
+</h3>
+<p>
+除了宾利汽车有限公司、我们的附属或联营公司、或我们的经销商、代理商和授权经销商、服务提供商、或任何其他宾利汽车有限公司为了您的利益而与之建立服务
+合作关系的公司之外，我们不会将这些信息透露给其他任何人。此外，我们也可能与某些第三方分享您的信息，其中包括帮助我们改进和优化网站的分析和搜索引擎
+提供商，还包括广告商、广告网络和营销机构，目的是让他们可以为您选择和提供我们或他们认为与您有关或您可能感兴趣的广告和信息。
+</p>
+<h3>
+6.个人数据的存储
+</h3>
+<p>
+我们向您收集的数据可能会被传输和储存至欧洲经济区（EEA）以外的目的地。这些数据也可能由位于 EEA 
+以外、为我们或为我们的供应商工作的员工来处理。这样的员工可能负责履行您的订单、处理您的付款详细信息、提供支持服务等。一旦提交您的个人数据，即表示
+您同意此类传输、存储和处理。我们将采取一切必要、合理的措施以确保安全地处理您的数据并遵守本《本隐私政策》。
+</p>
+<p>
+遗憾的是，通过 Internet 进行的信息传输并非万分安全。虽然我们会竭尽全力保护您的个人数据，但我们无法保证传输到我们网站上的您的数据绝对安全，所有传输均由您自己承担风险。一旦我们收到您的信息，我们会使用严格的程序和安全措施来防止未经授权的访问。
+</p>
+<h3>
+7.数据保护法规
+</h3>
+<p>
+我们将根据现行英国数据保护法规和本《隐私权政策》使用和保护我们收集的所有与您有关的信息。
+</p>
+<h3>
+8.Cookie
+</h3>
+<p>
+我们在本网站上使用名为“cookie”的标准技术。Cookie 
+是浏览器存储在电脑硬盘中的众多小段信息。我们需要这些信息以便对您进行识别并将您每次访问网站时所选产品的相关信息进行存储。这将有助于我们改善向您提
+供的服务。尽管大多数浏览器会自动接受 Cookie，您通常仍可以通过修改浏览器设置来阻止在硬盘存储 Cookie。如果您关闭 Cookie 
+功能，则我们所能为您提供的服务将受到限制。详情请参阅我们的<a href="#" target="_blank">cookie 政策</a>。
+</p>
+<h3>
+9.第三方收集和在线广告
+</h3>
+<p>
+我们的广告和营销机构以及服务提供商可能会收集非个人信息或汇总数据以便定制宾利网站及社交媒体网络的设计并实现其他商业用途（包括广告、分析、网站优
+化、评估）。这些公司可能会使用浏览器中内置的 cookie（小型文本文件）、像素、标签或类似技术来收集与您访问宾利网站以及访问 Internet
+ 
+上其他网站有关的信息。这些公司中的一些公司可能会利用这些信息来创建个人档案资料，藉此向您提供与您的兴趣紧密关联的广告，这被称为基于兴趣的广告。如
+果您要变更计算机、设备或浏览器，使用多个计算机、设备或浏览器，或删除您的 cookie，您可能需要针对每个计算机、设备或浏览器重复相关过程。
+</p>
+<h3>
+10.第三方链接
+</h3>
+<p>
+本网站可能包含指向其他网站的链接或用于从其他网站下载软件的链接。我们无法对此类网站的内容、隐私权政策或安全性进行控制或负责。我们建议您查阅所访问网站的隐私或安全政策。
+</p>
+<h3>
+11.对个人数据的访问权限和您的权利
+</h3>
+<p>
+我们在收集您的信息时会征求您是否同意将您的信息用于营销沟通。您有权知晓我们所保留的您的个人数据，并可随时更改您对营销沟通的偏好。如要更改您的偏好或访问我们所保留的您的信息，请使用以下联系方式与我们联系。 
+</p>
+<h3>
+12.《隐私权政策》的更改
+</h3>
+<p>
+我们未来可能对隐私权政策所做的任何更改都将在此页公布，在适当和必要时，我们会通过电子邮件向您通知相关变更。请经常回到此页来查看我们的《隐私权政策》的更新或更改内容。 
+</p>
+<h3>
+13.如何联络我们
+</h3>
+<p>
+如果您需要进一步的资料，或对本网站或我们的服务的任何方面有任何意见或问题，请联系我们的营销沟通团队：
+</p>
+<p>
+Marketing Communications Team,<br>Bentley Motors Limited,<br>Pyms Lane,<br>Crewe,<br>Cheshire,<br>CW1 3PL,<br>英国
+</p>
+<p>
+如果您希望联系任何一个区域办事处，请使用本网站<a href="http://www.bentleymotors.com/en/pages/contact-us.html" target="_blank">联系我们</a>部分包含的联系信息。
+</p>
+</div>
+</article>
+<hr>
+<article class="terms">
+<div>
+<a id="terms-and-conditions">
+
+</a>
+<h2>
+使用条款和条件
+</h2>
+<p>
+登录此网站即表明您同意遵守下列所有条款和条件。如果您不接受这些使用条款和条件，请离开本网站。
+</p>
+<h3>
+1.关于我们
+</h3>
+<p>
+宾利汽车有限公司（下文称“我们”）是一家在英格兰和威尔士注册的公司（公司注册号码: 0992897）。本网站的一些板块涉及我们的分销商和经销商，我们对任何以其名义提供的信息内容不承担任何责任。如果您希望与分销商或经销商交涉，请直接与他们联系。
+</p>
+<h3>
+2.此网站和第三方网站上信息的准确性
+</h3>
+<p>
+我们努力让本网站上的所有信息保持最新状态。但是，本网站包含的产品规格仅供参考。由于我们不断改善我们的产品，可能会出现车型或者标准或选装配置变更。我们保留随时更改这些产品规格的权利，恕不另行通知。如欲获得准确的最新信息，请联系您最近或首选的<a href="#" target="_blank">宾利汽车经销商</a>。
+</p>
+<p>
+我们不对任何第三方网站的内容承担任何责任。
+</p>
+<h3>
+3.无合同订立
+</h3>
+<p>
+由于本网站上的内容仅为一般信息用途而提供，它不应用作构成任何特殊商品销售的报盘。
+</p>
+<h3>
+4.分销商和经销商的非隶属关系
+</h3>
+<p>
+分销商和经销商均为独立主体，从事独立买卖。他们并非我们的代理商，且不能通过任何明示或默示保证让我们承担义务。
+</p>
+<h3>
+5.燃油经济性数据
+</h3>
+<p>
+我们依照欧盟指令 93/116/EC 提供燃油经济性统计数据。
+</p>
+<h3>
+6.安全建议
+</h3>
+<p>
+本网站有关我们车辆性能或速度的任何引用数据均无意鼓励危险驾驶或违反交通法规驾驶车辆。本网站中的内容并不能替代宾利汽车附带的车辆手册中包含的重要安全信息。
+</p>
+<h3>
+7.知识产权 - 版权和商标
+</h3>
+<p>
+本网站内容涉及的所有权利（包括版权、设计权、数据库权、专利、发明、专有技术、源代码及任何其他知识产权）均为我方所有或是特许我方使用。您可以在计算机屏幕上显示这些材料，也可以下载并打印相应复印件，将其作为有关我方的信息资源。
+</p>
+<p>
+您承诺不会有以下行为：
+</p>
+<ul>
+<li>
+修改或删除任何版权、商标或其他所有权声明；
+</li>
+<li>
+在未经我方或相应版权持有方事先书面同意的情况下，出于任何商业或公共用途目的，复制、下载、传播、分发、散布或公布任何文字、插图、图表、图形、图标、标识、图像和上述内容的版式编排，以及任何底层源代码和软件；
+</li>
+<li>
+使用本网站上传或散布任何包含病毒或类似内容的材料，或从事任何可能干扰或破坏本网站或其服务的活动；
+</li>
+<li>
+在未经我方事先书面同意的情况下，在任何其他网站、内部网或外部网的站点上建立指向本网站的链接。
+</li>
+</ul>
+<p>
+宾利字体的使用有严格限制，只用于宾利正式沟通、数字材料、影片、包装、标签和宾利专属配件。任何未经许可或未经授权的使用行为均视为对我方知识产权的侵犯，我方可能采取行动保护这些权利。
+</p>
+<h3>
+8.网站可靠性
+</h3>
+<p>
+虽然我们极力避免本网站出现任何错误，但无法保证其连续和完美使用。我们保留随时中止或撤销整个或部分网站的权利，恕不另行通知且不承担任何责任。
+</p>
+<h3>
+9.担保免责声明
+</h3>
+<p>
+关于本网站或本网站上包含的信息、内容、资料或产品的所有明示担保、陈述、任何种类的条件或法规或普通法暗示的其它条款均在法律允许的范围内，最大限度地予以排除。
+</p>
+<p>
+除非涉及宾利汽车有限公司、其雇员或其代理人确凿失误造成的死亡或人身伤害，否则在任何情况下我们都不会为任何直接的或间接的、特别的或间接损失或损害
+（无论是盈利或损失或其他）费用、索赔、费用或其他任何索赔承担任何责任，无论这些是否因使用本网站或本网站包含的信息、内容、资料或产品而引起或相关的
+宾利汽车有限公司、其雇员或代理商的行为、遗漏或疏忽而造成。
+</p>
+<p>
+对于访问与本网站相链接的任何网站或使用其信息，我们不承担任何责任或法律责任。
+</p>
+<h3>
+10.变更
+</h3>
+<p>
+我们保留随时更改这些条款和条件的权利，恕不另行通知。新版本将在网站上公布，公布后即刻生效并支配网站的所有使用。
+</p>
+<h3>
+11.条件留存
+</h3>
+<p>
+如果根据任何州或国家的法规，这些条款和条件的任何条文在已经或开始变得非法、无效或无法执行，则应将其从这些“条款和条件”中删除。不应涉及或伤害司法权法规下的其它任何条文的合法性、有效性和可执行性。
+</p>
+<h3>
+12.司法权
+</h3>
+<p>
+这些条款和条件将仅受英格兰法规管辖并依据该法规进行解释。英格兰法庭拥有解决与这些“条款和条件”相关的任何争端的专属司法权。
+</p>
+</div>
+</article>
+<hr>
+<article class="anticorruption-statement">
+<div>
+<a id="anti-corruption-statement">
+
+</a>
+<h2>
+反腐败声明
+</h2>
+<p>
+我们一贯致力于反贿赂和反腐败，并支持全国性和国际性的反贿反腐活动。
+</p>
+<p>
+作为一家在英国和威尔士注册的公司，我们主要受英国法律的管辖，其中包括《2010 反贿赂法案 2010��，此项法案同时适用于我们的国内和国际行为。我们也将遵守宾利经营所在一切司法管辖区内与打击贿赂和腐败有关的所有法律。
+</p>
+<p>
+我们的员工和授权合作伙伴受管辖其行为的“行为准则”和政策的约束。这包括一项要求——必须坚守和保持我们的反贿赂和反腐败立场。他们不可以使用我们的业
+务关系来谋取私利，必须诚实、正直地履行自己的职责，以支持我们的反腐败政策。他们无权直接或间接地寻求、收取或获取任何以引诱他们不恰当地履行其职责为
+目的的礼物或其他报酬。同样，他们不能以我们的名义行贿或提供便利费。
+</p>
+<p>
+为了进一步强化我们对反腐败的坚定承诺，我们携手大众集团内的其他公司，积极倡导我们的员工（以及我们的业务伙伴）通过“大众监察专员”流程来举报在宾利汽车有限公司内部发现和确知的腐败、欺诈或其他潜在的犯罪活动。
+</p>
+<p>
+监察专员是支持大众组织的外部指定律师，因此可以独立、公正地处理您所检举的问题。
+</p>
+<p>
+他们是秘密联络点，所有员工和商业伙伴均可向他们举报与大众集团或其旗下任何品牌公司（包括宾利汽车有限公司）有关的上述犯罪活动的可能证据。
+</p>
+<p>
+如要联系 Buchert 博士，请致电 <a href="tel:+496105921355">+49 / (0) 6105 / 92 13 55</a> 或发送电子邮件至 <a href="mailto:dr-buchert@dr-buchert.de">dr-buchert@dr-buchert.de</a>
+</p>
+<p>
+如要联系 Rohrbach 先生，请致电 <a href="#">+49 / (0) 69 / 65 30 03 56</a> 或发送电子邮件至 <a href="#">rohrbach@ra-rohrbach.de</a>
+</p>
+<p>
+如需“大众监察专员”流程的进一步信息或需要与在线报告问题有关的更多选项，请点击下面的链接：
+</p>
+<p>
+<a href="#" target="_blank">http://www.ombudsmen-of-volkswagen.com/</a>
+</p>
+<p id="copyRightFooter">宾利汽车有限公司 © 2016年。版权所有。</p>
+</div>
+</article>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+			var d = new Date();
+			var copyRight = "宾利汽车有限公司 &copy; "+d.getFullYear()+ "年。版权所有。";
+			document.getElementById("copyRightFooter").innerHTML	= copyRight;
+    </script>
+
+
+</body></html>

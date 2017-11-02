@@ -1,0 +1,83 @@
+@charset "utf-8";
+.img, .shoudai, .shouye {
+	width: 100%;
+	background: rgba(255,255,255,1)
+}
+.img_on {
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cbcbcb
+}
+h1 {
+	font-size: 20px;
+	color: #666666;
+	line-height: 50px
+}
+.shoudai_on {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 20px
+}
+.shouye_on {
+	width: 960px;
+	margin: 0 auto
+}
+.zuo, .you {
+	float: left
+}
+.zuo {
+	width: 253px;
+	line-height: 22px
+}
+.you {
+	width: 707px
+}
+.shouye p {
+	float: left;
+	font-size: 12px;
+	line-height: 28px
+}
+h1 {
+	font-size: 20px;
+	color: #666666;
+	line-height: 50px
+}
+label {
+	float: left;
+	width: 189px;
+	line-height: 48px;
+	font-size: 14px;
+	color: #3b3b3b;
+	margin-left: 30px
+}
+input {
+	height: 48px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	width: 333px
+}
+span {
+	color: rgba(255,0,0,1)
+}
+.biao {
+	background: #ededee
+}
+.p {
+	margin-top: 79px;
+	margin-bottom: 31px;
+	margin-left: 21px
+}
+input[type="submit"] {
+	width: 282px;
+	height: 48px;
+	background: url(../images/333_03.jpg) no-repeat 252px center;
+rgba(255,255,255,1);
+	border: 1px solid #e7e8e8;
+	margin-left: 422px;
+	font-size: 16px
+}
+input[id ="usernamee"]{height:135px;border:1px solid #a9a9a9;text-align:justify}
+
+

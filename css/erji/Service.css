@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.logo{width:960px; margin:0 auto; padding-top:41px; padding-bottom:20px; background:url(../../image/Service/Service%20(6).jpg) no-repeat center bottom;}
+.content{width:960px; margin:0 auto;}
+.content .top{ width:960px; margin:0 auto;}
+.content .top .left li{height:40px; line-height:40px; float:left; font-family:"微软雅黑"; font-size:10px; color:#000000;}
+.content .top .left li a{font-family:"微软雅黑"; font-size:10px; color:#787576; text-decoration:none;}
+.content .top .left li a:hover{color:#000; text-decoration:underline;}
+.content .top .right{padding-left:630px;}
+.content .top .right li{float:left; padding-right:36px; height:30px; line-height:40px;}
+.content .top .right li:last-child{padding-right:6px;}
+.content .top .right li a{text-decoration:none; font-family:"微软雅黑"; font-size:10px; color:#787576;}
+.content .top .right li a:hover{text-decoration:underline;}
+.content .top .right li img{padding-left:5px;}
+.content .bottom{ width:960px; margin:0 auto;}
+.content .bottom .left{padding-top:19px; float:left; width:120px;}
+.content .bottom .left .first li{height:22px; line-height:22px; font-family:"微软雅黑"; font-size:12px; color:#000000;}
+.content .bottom .left .first .second{padding-left:12px;}
+.content .bottom .left .first li .second a{font-family:"微软雅黑"; font-size:12px; color:#666666; text-decoration:none;}
+.content .bottom .left .first li .second a:hover{color:#000;}
+.content .bottom .right{float:right; width:704px;}
+.content .bottom .right h2{height:65px; line-height:65px; font-family:"微软雅黑"; font-size:24px; color:#666666;}
+.content .bottom .right h3:nth-child(2){height:20px; line-height:20px; font-family:"微软雅黑"; font-size:14px; color:#333333;}
+.content .bottom .right p{ font-family:"宋体"; font-size:14px; color:#333333;}
+.content .bottom .right p:nth-child(3),.content .bottom .right p:nth-child(5){height:60px; line-height:60px;}
+.content .bottom .right p:nth-child(4){ line-height:20px;}
+.content .bottom .right p:nth-child(5) a{color:#7875a5;}
+.content .bottom .right p:nth-child(5) a:hover{color:#000;}
+.content .bottom .right h3:nth-child(6){height:58px; line-height:58px; font-family:"微软雅黑"; font-size:14px; color:#333333;}
+.content .bottom .right p:nth-child(7){height:22px; line-height:22px;}
+.content .bottom .right ul{padding-top:88px;}
+.content .bottom .right ul li{height:40px; line-height:40px;}
+.content .bottom .right ul li:nth-child(2){padding-bottom:39px;}
+.content .bottom .right ul li a{font-family:"微软雅黑"; font-size:14px; color:#787576;}
+.content .bottom .right a:hover{color:#000;}
+

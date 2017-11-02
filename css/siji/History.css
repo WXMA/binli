@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.logo{width:960px; height:562px; margin:0 auto; padding-top:41px; background:url(../../image/History/History%20(4).jpg)no-repeat center bottom;}
+.content{width:960px; height:520px; margin:0 auto;}
+.content .top .left{float:left; width:500px; height:40px;}
+.content .top .left li{font-family:"微软雅黑"; font-size:10px; color:#000000; height:40px; line-height:40px; float:left;}
+.content .top .left li a{font-family:"微软雅黑"; font-size:10px; color:#787576; text-decoration:none;}
+.content .top .left li a:hover{color:#000; text-decoration:underline;}
+.content .top .right{float:right; width:298px; height:40px; }
+.content .top .right li{height:40px; line-height:40px; float:left; padding-right:20px;}
+.content .top .right li a{font-family:"微软雅黑"; font-size:10px; color:#787576; text-decoration:none;}
+.content .top .right li a img{padding-left:10px;}
+.content .bottom{ width:960px; height:560px;}
+.content .bottom .left{float:left; width:255px; height:350px;}
+.content .bottom .left h2{ width:254px; line-height:22px; font-family:"微软雅黑"; font-size:12px; color:#666666; padding-left:1px; margin-top:19px;}
+.content .bottom .left .first{ width:242px; height:251px; padding-left:13px;}
+.content .bottom .left .first li{ width:242px; line-height:22px; font-family:"微软雅黑"; font-size:12px; color:#000000; margin-bottom:1px;}
+.content .bottom .left a{ font-family:"微软雅黑"; font-size:12px; color:#666666; text-decoration:none;}
+.content .bottom .left a:hover{ color:#000000;}
+.content .bottom .left .first .second{ width:230px; height:136px; padding-left:12px;}
+.content .bottom .left .first .second li{ width:230px; line-height:22px; margin-bottom:1px;}
+.content .bottom .right{ width:705px; height:560px; float:right; }
+.content .bottom .right h2{height:65px; line-height:65px; font-family:"微软雅黑"; font-size:24px; color:#666666; padding-bottom:5px;}
+.content .bottom .right h3{line-height:22px; font-family:"微软雅黑"; font-size:16px; color:#666666; padding-bottom:20px;}
+.content .bottom .right p{line-height:20px; font-family:"微软雅黑"; font-size:14px; color:#666666; padding-bottom:20px;}
+
+

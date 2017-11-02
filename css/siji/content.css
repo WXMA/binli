@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+	clear:both;
+	content:".";
+	visibility:hidden;
+	height: 0;
+	display: block;
+}
+ul {
+	list-style: none
+}
+ul,li,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,form,label{display:block}
+img{border:none}
+a{text-decoration:none;color:rgba(0,0,0,1)}
+
+.clear {
+	height: 0;
+	line-heigh: 0;
+	clear: both;
+	font-size: 0;
+	display: block;
+}
+
+

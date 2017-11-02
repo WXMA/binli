@@ -1,0 +1,191 @@
+﻿/*
+Stylesheet referenced in
+	-	unsubscribe.htm
+*/
+body {
+    margin: 0;
+	padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    line-height: 15px;
+	overflow-x: hidden;
+}
+
+div {
+	position: relative;
+	overflow: hidden;
+	border: solid 0 #003366;
+	font-size: 11px;
+	color: #444444;
+	padding: 0px;
+}
+
+/*Request Information Page
+###################################################################################*/
+#div-close {
+	position: absolute;
+	top: 0;
+	right: 26px;
+	font-size: 11px;
+	z-index: 100;
+}
+
+.lnk-close {
+	font-size: 11px;
+	color: #444444;
+	text-decoration: none;
+}
+
+#div-logo {
+	margin-top: 7px;
+	margin-bottom: 22px;
+	text-align: center;
+}
+
+
+/* FORM ELEMENTS STYLES
+#################################################################*/
+.container-heading
+{
+	float: left;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-top: 2px;
+	margin-bottom: 7px;
+	margin-top:20px;
+	width: 515px;
+	border: solid 0px #cc0000;
+	color:#444444;
+	height: 21px;
+}
+
+html>body .container-heading {
+	width: 495px;
+}
+
+a {
+    color: #444444;
+    text-decoration: underline
+}
+
+a:hover {
+    color: #444444;
+    text-decoration: none
+}
+
+/* Privacy Policy Page
+#################################################################*/
+#legal-mother {
+	margin-top: 25px;
+	margin-left: 42px;
+	margin-right: 42px;
+	width:540px;
+	border: solid 0 red;
+	overflow: visible;
+}
+
+.legal-content
+{
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 42px;
+	float:left;
+	width:495px;
+}
+
+/* Cookie Policy Page
+#################################################################*/
+#legal-mother h1 {
+	float: left;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-top: 2px;
+	margin-bottom: 7px;
+	margin-top:20px;
+	width: 515px;
+	border: solid 0 #cc0000;
+	color:#444444;
+	height: 21px;
+}
+
+#legal-mother h2 {
+	font-size: 11px;
+	margin: 30px 0 0 0;
+}
+
+#legal-mother .legal-content h2:first-child {
+	margin: 0;
+}
+
+#legal-mother h2 span {
+	margin-right: 10px;
+}
+
+#legal-mother h3 {
+	font-size: 11px;
+}
+
+#legal-mother ol, #legal-mother ul {
+	clear:both;
+}
+
+#legal-mother li {
+	margin-bottom: 2px;
+}
+
+#legal-mother table {
+	margin-top: 20px;
+}
+
+#legal-mother table caption {
+	font-size: 11px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+#legal-mother table caption em {
+	font-weight: normal;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #aaaaaa;
+    color: #444444;
+}
+
+th, td {
+    padding: 4px;
+    font-family: arial, verdana, sans-serif;
+    font-size: 0.7em;
+    border-left: 1px solid #aaaaaa;
+    border-top: 1px solid #aaaaaa;
+    vertical-align: top;
+}
+
+th {
+    font-size: 1em;
+}
+
+td {
+    font-size: 1em;
+}
+
+tr th:first-child, tr td:first-child {
+    border-left: 0;
+}
+
+thead th {
+    border-top: 0;
+}
+
+th {
+    text-transform: uppercase;
+    background-color: #E6E6E6;
+    color: #343434;
+    text-align: left;
+}

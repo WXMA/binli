@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.title4{ width:100%; background:#FFF;}
+.title4 .title4-1{ width:960px; margin:0 auto; height:512px; padding-bottom:46px; padding-top:51px; border-bottom:1px solid #cbcbcb;}
+.title4 .nav2{ width:960px; margin:0 auto;}
+.nav2 p.p1,.nav2 p.p2{ float:left;}
+.nav2 p.p1{ padding-top:14px; color:#00000; font-size:12px; font-family:"微软雅黑"; width:200px;}
+.nav2 p.p1 a{ color:#787576; font-size:12px; font-family:"微软雅黑";}
+.nav2 p.p1 a:hover{color:#000000; text-decoration:underline;}
+.nav2 p.p1 span{ padding-left:3px; padding-right:3px; color:#696e67;}
+.nav2 p.p2{ padding-top:11px; padding-left:448px;}
+.nav2 p.p2 a{ color:#787576; font-size:12px; font-family:"微软雅黑";}
+.nav2 p.p2 a:hover{color:#000000; text-decoration:underline;}
+.title4 .content2{ width:960px; margin:0 auto; margin-top:34px;} 
+.content2 .left{ width:115px; margin-right:139px;}
+.left h3{ color:#000000; font-size:12px; font-family:"微软雅黑"; padding-top:5px;}
+.left ul{ padding-left:13px;}
+.left ul li{ line-height:22px;}
+.left li a{ color:#666666; font-size:12px; font-family:"微软雅黑";}
+.left li a:hover{ color:#000;}
+.content2 .right{ width:699px;}
+.right h2{ color:#666666; font-size:24px; padding-bottom:10px;}
+.right h3{ color:#333333; font-size:16px; font-family:"微软雅黑"; padding-bottom:20px; padding-top:18px;}
+ .right p{ color:#333333; font-size:14px; line-height:20px; padding-bottom:20px;}
+.content2 .left,.content2 .right{ float:left;}

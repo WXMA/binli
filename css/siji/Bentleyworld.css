@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.img,.wufa,.chexing{width:100%;background:rgba(255,255,255,1)}
+.img_on{width:961px;margin:0 auto}
+.chexing{width:961px;height:224px;margin:0 auto;padding-top:40px;border-bottom:1px #e6e6e6 solid}
+.wufa_on{height:80px;width:961px;text-align:center;border-bottom:1px #e6e6e6 solid;margin:0 auto;padding-bottom:23px}
+.p1{font-size:26px;color:#666666;padding-top:16px;padding-bottom:23px}
+.p2{font-size:14px;color:#333333}
+chexin_on ul li{font-size:16px;color:#787576;line-height:26px;font-family:"微软雅黑"}
+ul{float:left;padding-right:200px}
+chexin_on. li1{font-size:18px;color:#000;padding-bottom:30px}

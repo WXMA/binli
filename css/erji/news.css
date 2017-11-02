@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.title3{ width:100%; background:#FFF;}
+.title3 .title3-1{ width:960px; height:376px; margin:0 auto; border-bottom:1px solid #cbcbcb; padding-top:50px;} 
+.title3 .nav2{ width:960px; margin:0 auto;}
+.nav2 p.p1,.nav2 p.p2{ float:left;}
+.nav2 p.p1{ padding-top:14px; color:#00000; font-size:12px; font-family:"微软雅黑"; width:159px;}
+.nav2 p.p1 a{ color:#787576; font-size:12px; font-family:"微软雅黑";}
+.nav2 p.p1 a:hover{color:#000000; text-decoration:underline;}
+.nav2 p.p1 span{ padding-left:3px; padding-right:3px; color:#696e67;}
+.nav2 p.p2{ padding-top:11px; padding-left:478px;}
+.nav2 p.p2 a{ color:#787576; font-size:12px; font-family:"微软雅黑";}
+.nav2 p.p2 a:hover{color:#000000; text-decoration:underline;}
+.title3 .new{ width:960px; margin:0 auto; margin-top:35px; height:5500px;}
+.new .left{ width:117px; margin-right:146px;}
+.left h3{ color:#000000; font-size:12px; font-family:"黑体";}
+.left ul{ padding-left:12px;}
+.left ul li{ line-height:23px;}
+.left li a{ font-size:12px; color:#666666; font-family:"黑体";}
+.left li a:hover{ color:#000;}
+.new .right{ width:676px;}
+.new .right li img{ display:block; float:left; padding-right:20px;}
+.new .right li{ padding-bottom:29px;}
+.new .right li h4{ padding-top:5px; padding-bottom:10px;}
+.new .right li h4 a{ color:#666666; font-size:17px; font-family:"宋体";}
+.new .right li p{ line-height:20px; width:489px; float:right; color:#333333; font-size:14px; font-family:"黑体";}
+.new .right li a{ color:#787576; font-size:14px;}
+.new .right li a:hover{ color:#000;}
+.new .left,.new .right{ float:left;}

@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.logo{width:960px; margin:0 auto;}
+.content{ width:100%;}
+.content .content1{width:960px; background:#f6f7f8; height:146px; margin:0 auto; }
+.content1 h2{display:block; line-height:48px; padding-top:4px; padding-left:20px; font-family:"微软雅黑"; font-size:16px; color:#767676;}
+.content1 select{display:block; margin-left:20px; width:433px; height:50px; line-height:50px; border:1px solid #e7e8e8; padding-left:20px; font-family:"微软雅黑"; font-size:16px; color:#afacaa;}
+.content1 span{width:49px; height:50px; background:url(../../image/Query/Query%20(2).jpg) no-repeat 17px 21px, #f6f7f8;}

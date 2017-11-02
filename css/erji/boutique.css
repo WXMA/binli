@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.box{ width:100%; height:895px; background:#ffffff;}
+.title{ width:960px; height:583px; margin:0 auto; border-bottom:1px solid #cbcbcb;}
+.title img{ width:960px; height:541px; display:block; margin-top:0px;} 
+.title ul{ width:960px; height:21px; background:#dfdfdf;}
+.title ul li{ float:left; width:133px; height:21px; line-height:21px; text-align:center; color:#dfdfdf; text-decoration:none;}
+.title ul li:hover{ background:#9b9b9b; border:1px solid #707070; border-bottom:none;}
+.title ul li a{ font-family:"微软雅黑"; font-size:10px; color:#000000; text-decoration:none;}
+.title ul li a:hover{ color:#ffffff; text-decoration:none;}
+.nav{ width:960px; height:38px; margin:0 auto;}
+.nav .left{ float:left; width:150px; height:38px; line-height:38px; font-family:"微软雅黑"; font-size:10px; color:#000000; text-decoration:none;}
+.nav .left img{ width:3px; height:5px; padding-left:6px; padding-right:6px;}
+.nav .left a{ font-family:"微软雅黑"; font-size:10px; color:#787576; text-decoration:none; }
+.nav .left a:hover{ color:#000000; text-decoration:underline;}
+.nav .right{ float:right; width:319px; height:38px; line-height:38px; padding-left:41px;}
+.nav .right a{ font-family:"微软雅黑"; font-size:10px; color:#787576; text-decoration:none;}
+.nav .right a:hover{ color:#000000; text-decoration:underline;}
+.main{ width:960px; height:274px; margin:0 auto;}
+.main .left{ width:200px; height:274px; float:left;}
+.main .left h2{ width:199px; height:22px; line-height:22px; font-family:"微软雅黑"; font-size:12px; color:#000000; margin-top:20px; padding-left:1px;}
+.main .left ul{ width:187px; height:114px; padding-left:13px;}
+.main .left ul li{ width:187px; line-height:22px; margin-bottom:1px; font-family:"微软雅黑"; font-size:12px; color:#000000;}
+.main .left ul li a{ font-family:"微软雅黑"; font-size:12px; color:#666666; text-decoration:none;}
+.main .left ul li a:hover{ color:#000000; }
+.main .right{ width:704px; height:274px; float:right; padding-left:56px;}
+.main .right h2{ width:704px; height:54px; line-height:54px; font-family:"微软雅黑"; font-size:23px; color:#666666; margin-top:6px;}
+.main .right h3{ width:704px; height:45px; line-height:45px; font-size:15px; font-family:"微软雅黑"; color:#666666;}
+.main .right p{ width:704px; line-height:20px; font-size:13px; font-family:"微软雅黑"; color:#333333; margin-bottom:20px;}
+.main .right p a{ font-family:"微软雅黑"; font-size:13px; color:#787576; text-decoration:underline;}
+.main .right p a:hover{ color:#000000; text-decoration:none;}

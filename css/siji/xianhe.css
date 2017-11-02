@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.img,.shouye,.tianyue{width:100%;background: color:floralwhite;}
+.img_on,.shouye_on,.tianyue_on{width:960px;margin: 0 auto;}
+.img_on{}
+.img_on ul{width:960px;background:#dfdfdf; position:relative}
+.img_on ul li{float:left;width:132px;text-align:center;font-size:12px;line-height:20px}
+.img_on ul li:hover{background:#7a7a7a}
+
+.youku{display:none; position:absolute;top:-542px}
+.li1:hover div{display:block}
+.shoudai_on {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 20px
+}
+.shouye_on {
+	width: 960px;
+	margin: 0 auto
+}
+.shouye_on p.p2{ padding-left:328px;}
+.shouye_on p.p2 a{ color:#787576; font-size:12px; font-family:"微软雅黑";}
+.shouye_on p.p2 a:hover{color:#000000; text-decoration:underline;}
+.zuo, .you {
+	float: left
+}
+.zuo {
+	width: 253px;
+	line-height: 22px
+}
+.you {
+	width: 707px
+}
+.shouye p {
+	float: left;
+	font-size: 12px;
+	line-height: 28px
+}
+h1 {
+	font-size: 24px;
+	color: #666666;
+	line-height: 50px
+}
+h2{font-size:14px;font-family:"黑体";color:#333333}
